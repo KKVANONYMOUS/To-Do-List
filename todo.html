@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do list</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://kit.fontawesome.com/f2ce051dd5.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body><br>
+<div class="container col-lg-12 col-sm-12">
+	<h1 class="text-center text-white bg-dark">To do list</h1><br>
+
+		<div class="form-group text-center">
+		<form onsubmit="return false"><!-- This is done to prevent reloading of page when enter key is pressed -->
+			<label><input type="text" id="text_input"  class="form-control" placeholder="New Item..." style="width:500px;" autocomplete="on" autofocus="true" onkeypress="addinputafterEnterkey(event)"> </label>  <i class="far fa-plus-square fa-fw "onclick="addinputclick()" id="plus"></i>
+		</form>
+	</div >
+	
+	
+</div>
+<script src="main.js">
+	
+</script>
+</body>
+</html>
